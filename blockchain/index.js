@@ -23,7 +23,7 @@ class Blockchain {
 
     }
     createGenesisBlock() { 
-        return new Block("03/01/2018", "Store patter betyder undskyld", "0");
+        return new Block("03/01/2018", "Initital block", "0");
     }
 
     getLatestBlock() { 
